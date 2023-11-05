@@ -1,0 +1,43 @@
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.title-container__sub-title {
+  display: flex;
+  flex-direction: column;
+  color: #00aaff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.title-container__main-title {
+  display: flex;
+  align-items: center;
+}
+
+.title-logo {
+  display: flex;
+  letter-spacing: 0.2rem;
+  flex-direction: column;
+  font-size: 4.5rem;
+  color: #00aaff;
+  line-height: 4.5rem;
+  font-family: "Anton", sans-serif;
+}
+
+.title-text {
+  margin: 0 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+}
+.title-text div {
+  display: flex;
+}
+
+.text-blue {
+  color: #00aaff;
+}
+.delete-bold {
+  font-weight: normal;
+}

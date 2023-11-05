@@ -1,0 +1,13 @@
+footer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 3rem 0;
+  box-sizing: border-box;
+}
+.footer-category {
+  display: flex;
+}

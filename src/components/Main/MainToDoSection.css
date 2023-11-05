@@ -1,0 +1,36 @@
+.section {
+  margin-top: 5rem;
+}
+.section + .section {
+  border-top: 2px dotted #00aaff;
+  box-sizing: border-box;
+  padding-top: 5rem;
+}
+.section-ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 30rem);
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.section-title span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 4px dashed #00aaff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00aaff;
+  background-color: white;
+}

@@ -1,0 +1,50 @@
+header {
+  box-sizing: border-box;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-label {
+  width: 9rem;
+  height: 9rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  right: 3rem;
+  top: 3rem;
+  justify-content: center;
+  background: #ffcb5f;
+  box-sizing: border-box;
+  transition: 1.3s all;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.header-label::after {
+  content: "";
+  transform: rotate(30deg);
+  width: 9rem;
+  height: 9rem;
+  background: #ffcb5f;
+  position: absolute;
+}
+
+.header-label::before {
+  content: "";
+  transform: rotate(60deg);
+  width: 9rem;
+  height: 9rem;
+  background: #ffcb5f;
+  position: absolute;
+}
+.header-label__text {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.header-label:hover {
+  transform: rotate(360deg);
+}

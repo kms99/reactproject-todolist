@@ -1,0 +1,103 @@
+.card-done {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  right: -2rem;
+  top: -2rem;
+  border: 5px double yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+  font-size: 3rem;
+  font-weight: bold;
+  transform: rotate(15deg);
+  transition: 0.5s;
+  background: #00000033;
+  text-decoration: underline;
+}
+.card-done:hover {
+  transform: rotate(40deg);
+}
+.card-list {
+  position: relative;
+  margin: 1rem 2rem;
+}
+
+.card {
+  background: #7dd4ff;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 25rem;
+  height: 33rem;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  border-bottom: 2px dashed #00aaff;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card p {
+  font-size: 2rem;
+  height: 60%;
+  margin: 1rem 0 0 0;
+  word-wrap: break-word;
+  overflow-y: scroll;
+}
+.card p::-webkit-scrollbar {
+  width: 8px;
+}
+.card p::-webkit-scrollbar-thumb {
+  background: #00aaff;
+  border: 2px solid #013853;
+  border-radius: 12px 12px 12px 12px;
+}
+.card__button-area {
+  border-top: 2px dashed #00aaff;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.button-area__first-line {
+  display: flex;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+}
+
+.button-area__first-line button {
+  width: 48%;
+}
+.button-area__first-line button + button:hover {
+  background-color: #530101;
+}
+
+.default-message {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 2.5rem;
+  border: 1px solid black;
+  box-sizing: border-box;
+  /* border-bottom: 2px dashed #00aaff; */
+  max-width: 100%;
+}
+
+.card-context {
+  font-size: 2rem;
+  box-sizing: border-box;
+  height: 60%;
+  width: 100%;
+  margin: 1rem 0 0 0;
+  resize: none;
+}

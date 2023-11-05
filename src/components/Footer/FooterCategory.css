@@ -1,0 +1,22 @@
+.footer-category-container {
+  margin: 0 5rem;
+  display: flex;
+  align-items: start;
+}
+.footer-category-container span {
+  font-size: 2rem;
+  margin: 0;
+}
+.footer-category-container ul {
+  list-style: none;
+  margin: 0;
+}
+
+.footer-category-container ul li {
+  padding: 0.3rem 0;
+}
+.footer-category-container ul a {
+  color: beige;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
