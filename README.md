@@ -14,6 +14,8 @@ https://reactproject-todolist.vercel.app/
 
 ## 시연
 
+![Alt text](<ezgif.com-video-to-gif (10).gif>)
+
 ## 컴포넌트 정보
 
 **Header.jsx**
