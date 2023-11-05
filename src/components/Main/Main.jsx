@@ -8,10 +8,7 @@ const Main = () => {
   );
 
   const getInputDataHandler = (inputData) => {
-    localStorage.setItem(
-      "todo",
-      JSON.stringify([...JSON.parse(localStorage.getItem("todo")), inputData])
-    );
+    localStorage.setItem("todo", JSON.stringify([...todoList, inputData]));
     setTodoList([...todoList, inputData]);
   };
   return (
