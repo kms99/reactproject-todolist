@@ -4,7 +4,7 @@ import MainToDoSection from "./MainToDoSection";
 
 const Main = () => {
   const [todoList, setTodoList] = useState(
-    JSON.parse(localStorage.getItem("todo"))
+    JSON.parse(localStorage.getItem("todo")) || []
   );
 
   const getInputDataHandler = (inputData) => {
